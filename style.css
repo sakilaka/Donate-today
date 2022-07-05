@@ -1,0 +1,106 @@
+body{
+   /* 
+   font-family: 'Tangerine', cursive;
+   font-family: 'Berkshire Swash', cursive;*/
+}
+
+.header-part{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1.9;
+}
+h1{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding-top: 170px;
+    color:white;
+    
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 70px;
+}
+hr{
+    width: 50%;
+}
+.header-part p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+.header-part p button{
+    text-align: center;
+    margin-bottom: 180px;
+
+}
+.Button-style{
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(tomato, red);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.Donate-part p{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 5px;
+}
+.Donate-part .amount .amount1{
+    margin: 10px;
+}
+.Donate-part .amount .amount2{
+    margin: 10px;
+}
+.Donate-part .amount .amount3{
+    margin: 10px;
+}
+.Donate-part .amount .amount4{
+    margin: 10px;
+}
+.Donate-part .amount .amount5{
+    margin: 10px;
+}
+.amount{
+    display: flex;
+    padding-left: 370px;
+}
+.amount .amount1{
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: rgb(219, 208, 208);
+    font-weight: bold;
+}
+.amount .amount2{
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: rgb(219, 208, 208);
+    font-weight: bold;
+}
+.amount .amount3{
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: rgb(219, 208, 208);
+    font-weight: bold;
+}
+.amount .amount4{
+    padding: 20px;
+    border: 2px solid tomato;
+    background-color: rgb(252, 179, 166);
+    color: rgb(245, 68, 37);
+    font-weight: bold;
+}
+.amount .amount5{
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: rgb(219, 208, 208);
+    font-weight: bold;
+}
