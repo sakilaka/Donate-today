@@ -10,7 +10,7 @@ body{
     background-size: 100%;
     opacity: 1.9;
 }
-h1{
+.header-part h1{
     font-family: 'Acme', sans-serif;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
@@ -28,6 +28,7 @@ h2{
 }
 hr{
     width: 50%;
+    margin-top: -10px;
 }
 .header-part p{
     text-align: center;
@@ -103,4 +104,55 @@ hr{
     border: 2px solid grey;
     background-color: rgb(219, 208, 208);
     font-weight: bold;
+}
+p input{
+    border: none;
+
+}
+.plan-heading h1{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 170px;
+    color:rgb(50, 114, 233);
+    
+}
+.plan-heading p{
+    text-align: center;
+    font-size: 1.2rem;
+    color:black;
+    font-weight: 500;
+}
+h3{
+    font-size: 24px;
+}
+.food p{
+    font-size: 1rem;
+    text-transform: lowercase;
+
+}
+.shelter p{
+    font-size: 1rem;
+}
+.donate-plan{
+    display: flex;
+    padding-left: 210px ;
+    padding-top: 20px;
+}
+.food{
+    background-color: rgb(172, 248, 223);
+    padding: 15px;
+    margin: 15px;
+}
+.shelter{
+    background-color: rgb(247, 179, 155);
+    padding: 15px;
+    margin: 15px;
+}
+.education{
+    background-color: rgb(247, 193, 127);
+    padding: 15px;
+    margin: 15px;
 }
