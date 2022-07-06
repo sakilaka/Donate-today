@@ -187,3 +187,51 @@ h3{
 .discuss-part{
     display: flex;
 }
+.update h1{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-top: 80px;
+    color:rgb(238, 40, 238);
+}
+.update p{
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgb(100, 97, 97);
+    font-weight: 500;
+}
+.input{
+    display: flex;
+    padding: 30px 30px 10px 120px;
+    background-color:rgb(178, 240, 116);
+    width: 30%;
+    margin-left: 400px;
+    
+
+ }
+ .Btn{
+    background-image: linear-gradient(gold,tomato);
+    border: none;
+    padding: 10px;
+ }
+ footer{
+    background-color: black;
+    margin-top: 130px;
+ }
+footer h1{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 30px;
+    color:rgb(238, 40, 238);
+}
+footer p{
+    text-align: center;
+    color: rgb(245, 233, 233);
+    font-weight: 600;
+    padding-bottom: 40px;
+}
