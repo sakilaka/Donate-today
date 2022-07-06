@@ -115,7 +115,7 @@ p input{
     text-align: center;
     font-size: 3rem;
     font-weight: 500;
-    padding-top: 170px;
+    padding-top: 80px;
     color:rgb(50, 114, 233);
     
 }
@@ -138,7 +138,7 @@ h3{
 }
 .donate-plan{
     display: flex;
-    padding-left: 210px ;
+    padding-left: 200px ;
     padding-top: 20px;
 }
 .food{
@@ -155,4 +155,35 @@ h3{
     background-color: rgb(247, 193, 127);
     padding: 15px;
     margin: 15px;
+}
+.pic img{
+    width: 50%;
+    padding-left: 180px;
+    padding-top: 60px;
+}
+.describe{
+    padding-right: 120px;
+   width: 60%;
+    padding-top: 40px;
+}
+.describe h1{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 500;
+    
+    
+}
+.describe p{
+    text-align: center;
+    font-size: 1.2rem;
+    color:black;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 10px 0;
+    
+}
+.discuss-part{
+    display: flex;
 }
